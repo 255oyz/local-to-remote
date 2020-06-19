@@ -15,7 +15,7 @@
 // 有关此类的实现，请参阅 918108320122.cpp
 //
 
-class CMy918108320122App : public CWinApp
+class CMy918108320122App : public CWinA
 {
 public:
 	CMy918108320122App();
