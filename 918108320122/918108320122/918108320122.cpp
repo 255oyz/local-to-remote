@@ -75,7 +75,7 @@ BOOL CMy918108320122App::InitInstance()
 	}
 
 	// 删除上面创建的 shell 管理器。
-	if (pShellManager != NULL)
+	if (pShellManager != 0)
 	{
 		delete pShellManager;
 	}
