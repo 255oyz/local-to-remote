@@ -5,7 +5,8 @@
 #pragma once
 #include "afxwin.h"
 #include "resource.h"    
-
+#include <math.h>
+/*This is a test.*/
 
 // CMy918108320122Dlg ¶Ô»°¿ò
 class CMy918108320122Dlg : public CDialogEx
