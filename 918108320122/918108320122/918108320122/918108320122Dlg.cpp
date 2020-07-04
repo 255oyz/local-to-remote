@@ -289,15 +289,9 @@ void CMy918108320122Dlg::OnLbnKillfocusListContacts()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	UpdateData();
-	m_name="";
-	m_sex="";
-	m_birthday="";
-	m_city="";
-	m_company="";
-	m_officeTel="";
-	m_homeTel=""; 
-	m_postcode="";
-	m_email="";
+	Ccontacts obj;
+	obj.Getcontacts(obj.putout());
+	obj.transinfo(this);
 	UpdateData(FALSE);
 }
 
