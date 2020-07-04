@@ -135,6 +135,7 @@ BOOL CMy918108320122Dlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
 	// TODO: 在此添加额外的初始化代码
+	MessageBox("Test of teamwork based on GitHub","Warning",MB_ICONWARNING|IDOK);
 	CStdioFile  addressbook;
 	CString info;
 	Ccontacts linkman;
