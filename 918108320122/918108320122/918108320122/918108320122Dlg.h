@@ -6,7 +6,7 @@
 #include "afxwin.h"
 #include "resource.h"    
 
-
+/*Test of teamwork in gtihub*/
 // CMy918108320122Dlg ¶Ô»°¿ò
 class CMy918108320122Dlg : public CDialogEx
 {
