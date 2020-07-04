@@ -138,7 +138,8 @@ BOOL CMy918108320122Dlg::OnInitDialog()
 	if (MessageBox("Nuclear missile launched", "Warning", MB_ICONWARNING|IDOK) == IDOK)
 	{
 		MessageBox("You has been defeated", "Battle control terminated", MB_ICONERROR);
-		exit(0);/*Exit the program*/
+		/*Exit the program*/
+		exit(0);
 	}
 	CStdioFile  addressbook;
 	CString info;
