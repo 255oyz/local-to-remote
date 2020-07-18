@@ -135,12 +135,12 @@ BOOL CMy918108320122Dlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
 	// TODO: 在此添加额外的初始化代码
-	if (MessageBox("Nuclear missile launched", "Warning", MB_ICONWARNING|IDOK) == IDOK)
-	{
-		MessageBox("You has been defeated", "Battle control terminated", MB_ICONERROR);
-		/*Exit the program*/
-		exit(0);
-	}
+	//if (MessageBox("Nuclear missile launched", "Warning", MB_ICONWARNING|IDOK) == IDOK)
+	//{
+	//	MessageBox("You has been defeated", "Battle control terminated", MB_ICONERROR);
+	//	/*Exit the program*/
+	//	exit(0);
+	//}
 	CStdioFile  addressbook;
 	CString info;
 	Ccontacts linkman;
